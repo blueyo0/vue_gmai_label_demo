@@ -1,21 +1,15 @@
-# gmai_label
+# gmai_label_demo
 
-> A Vue.js project
+Demo for medical segmentation & STU-Net
 
-## Build Setup
+## Dependencies
 
-``` bash
-# install dependencies
-npm install
+frontend: Vue.js + element-ui
+backend: flask
+plugin:
+- OHIF-Viewer
+- Orthanc DICOM-Web Server
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Get started
+### start backend server
+python src/server/
